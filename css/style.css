@@ -25,10 +25,12 @@ h1 {
 .wrapper::before {
   content: "";
   position: absolute;
-  left: calc(50% - 2px);
-  width: 4px;
+  left: calc(50% - 16px);
+  width: 32px;
   height: 100%;
-  background: #F55;
+  background: url(../images/rope.png);
+  background-repeat: repeat-y;
+  background-size: 100%;
   z-index: 99;
 }
 .wrapper .image-area {
@@ -41,184 +43,184 @@ h1 {
           mask-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0) 65%, rgb(0, 0, 0) 100%);
 }
 .wrapper .image-area img:nth-of-type(1) {
-  animation: float 8s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.0477629475s;
-  animation-delay: 0.6052366107s;
+  animation: float 11s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.2509169744s;
+  animation-delay: 0.2727272022s;
 }
 .wrapper .image-area img:nth-of-type(2) {
-  animation: float 15s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.55480188s;
-  animation-delay: 0.7477594322s;
+  animation: float 11s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.9026667158s;
+  animation-delay: 0.8035777367s;
 }
 .wrapper .image-area img:nth-of-type(3) {
-  animation: float 6s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.8706658484s;
-  animation-delay: 0.2968014017s;
+  animation: float 15s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.0710443752s;
+  animation-delay: 0.5831790556s;
 }
 .wrapper .image-area img:nth-of-type(4) {
-  animation: float 11s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.8150828698s;
-  animation-delay: 0.9287964925s;
+  animation: float 13s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.4265916671s;
+  animation-delay: 0.9756713353s;
 }
 .wrapper .image-area img:nth-of-type(5) {
-  animation: float 14s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.9443615613s;
-  animation-delay: 0.6712334767s;
+  animation: float 7s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.5470736081s;
+  animation-delay: 0.2360231389s;
 }
 .wrapper .image-area img:nth-of-type(6) {
   animation: float 13s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.1322152371s;
-  animation-delay: 0.0152143117s;
+  transition-delay: 0.6725823305s;
+  animation-delay: 0.2896734693s;
 }
 .wrapper .image-area img:nth-of-type(7) {
-  animation: float 13s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.0885927949s;
-  animation-delay: 0.4126096677s;
+  animation: float 14s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.6180900591s;
+  animation-delay: 0.2376411271s;
 }
 .wrapper .image-area img:nth-of-type(8) {
-  animation: float 12s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.6315416604s;
-  animation-delay: 0.7836206857s;
+  animation: float 13s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.2295111841s;
+  animation-delay: 0.4935441643s;
 }
 .wrapper .image-area img:nth-of-type(9) {
-  animation: float 13s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.8151910447s;
-  animation-delay: 0.8399113118s;
+  animation: float 10s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.5747385917s;
+  animation-delay: 0.3530058561s;
 }
 .wrapper .image-area img:nth-of-type(10) {
-  animation: float 15s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.1606474086s;
-  animation-delay: 0.5477028321s;
+  animation: float 10s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.3374342897s;
+  animation-delay: 0.5803641934s;
 }
 .wrapper .image-area img:nth-of-type(11) {
-  animation: float 10s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.2426680823s;
-  animation-delay: 0.7672118648s;
+  animation: float 12s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.3799895929s;
+  animation-delay: 0.6440606542s;
 }
 .wrapper .image-area img:nth-of-type(12) {
   animation: float 11s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.8381298589s;
-  animation-delay: 0.3184430667s;
+  transition-delay: 0.3117081199s;
+  animation-delay: 0.9184717097s;
 }
 .wrapper .image-area img:nth-of-type(13) {
-  animation: float 9s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.8322916798s;
-  animation-delay: 0.8958704873s;
+  animation: float 7s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.3894084695s;
+  animation-delay: 0.9286877716s;
 }
 .wrapper .image-area img:nth-of-type(14) {
-  animation: float 8s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.6568844839s;
-  animation-delay: 0.8390343484s;
+  animation: float 15s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.0597731358s;
+  animation-delay: 0.0569785762s;
 }
 .wrapper .image-area img:nth-of-type(15) {
-  animation: float 14s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.4281825636s;
-  animation-delay: 0.9240433365s;
+  animation: float 13s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.9854972284s;
+  animation-delay: 0.5289393296s;
 }
 .wrapper .image-area img:nth-of-type(16) {
-  animation: float 11s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.4309526719s;
-  animation-delay: 0.5752915635s;
+  animation: float 8s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.3758542723s;
+  animation-delay: 0.0495377962s;
 }
 .wrapper .image-area img:nth-of-type(17) {
-  animation: float 14s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.5364954114s;
-  animation-delay: 0.0053097411s;
+  animation: float 15s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.1471570346s;
+  animation-delay: 0.3254062652s;
 }
 .wrapper .image-area img:nth-of-type(18) {
-  animation: float 12s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.4859420182s;
-  animation-delay: 0.7579233755s;
+  animation: float 13s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.0028028887s;
+  animation-delay: 0.7201334772s;
 }
 .wrapper .image-area img:nth-of-type(19) {
-  animation: float 8s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.5426084856s;
-  animation-delay: 0.5226786463s;
+  animation: float 15s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.0796288541s;
+  animation-delay: 0.3165095647s;
 }
 .wrapper .image-area img:nth-of-type(20) {
-  animation: float 15s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.2841486159s;
-  animation-delay: 0.1401463232s;
+  animation: float 11s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.2006874535s;
+  animation-delay: 0.0513192028s;
 }
 .wrapper .image-area img:nth-of-type(21) {
-  animation: float 8s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.99954543s;
-  animation-delay: 0.1799792768s;
+  animation: float 11s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.0470735876s;
+  animation-delay: 0.1331137041s;
 }
 .wrapper .image-area img:nth-of-type(22) {
-  animation: float 9s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.7342886805s;
-  animation-delay: 0.7673711929s;
+  animation: float 7s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.1449922901s;
+  animation-delay: 0.6938954246s;
 }
 .wrapper .image-area img:nth-of-type(23) {
-  animation: float 13s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.0966770236s;
-  animation-delay: 0.0074790811s;
+  animation: float 7s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.7396572494s;
+  animation-delay: 0.2913031472s;
 }
 .wrapper .image-area img:nth-of-type(24) {
-  animation: float 15s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.2567643403s;
-  animation-delay: 0.1397317076s;
+  animation: float 6s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.464988219s;
+  animation-delay: 0.23962763s;
 }
 .wrapper .image-area img:nth-of-type(25) {
-  animation: float 12s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.3963315311s;
-  animation-delay: 0.6744524714s;
+  animation: float 9s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.4121665289s;
+  animation-delay: 0.3499883924s;
 }
 .wrapper .image-area img:nth-of-type(26) {
-  animation: float 8s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.3029136217s;
-  animation-delay: 0.7344847661s;
+  animation: float 11s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.0481664753s;
+  animation-delay: 0.0034697793s;
 }
 .wrapper .image-area img:nth-of-type(27) {
-  animation: float 7s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.7333812399s;
-  animation-delay: 0.0258454767s;
+  animation: float 6s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.499951383s;
+  animation-delay: 0.0302237764s;
 }
 .wrapper .image-area img:nth-of-type(28) {
-  animation: float 8s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.9631756898s;
-  animation-delay: 0.4815039404s;
+  animation: float 10s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.3381526385s;
+  animation-delay: 0.6474875867s;
 }
 .wrapper .image-area img:nth-of-type(29) {
-  animation: float 12s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.3075924746s;
-  animation-delay: 0.5967737808s;
+  animation: float 11s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.6486663615s;
+  animation-delay: 0.6828797586s;
 }
 .wrapper .image-area img:nth-of-type(30) {
-  animation: float 8s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.8981195907s;
-  animation-delay: 0.9696294489s;
+  animation: float 10s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.6278357374s;
+  animation-delay: 0.9361988538s;
 }
 .wrapper .image-area img:nth-of-type(31) {
-  animation: float 15s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.6902109865s;
-  animation-delay: 0.4374693844s;
+  animation: float 6s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.0215580022s;
+  animation-delay: 0.6788211684s;
 }
 .wrapper .image-area img:nth-of-type(32) {
-  animation: float 13s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.9156006564s;
-  animation-delay: 0.9133176521s;
+  animation: float 6s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.0163463071s;
+  animation-delay: 0.1585538584s;
 }
 .wrapper .image-area img:nth-of-type(33) {
-  animation: float 10s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.2938039093s;
-  animation-delay: 0.531575282s;
+  animation: float 6s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.8759046738s;
+  animation-delay: 0.6363157364s;
 }
 .wrapper .image-area img:nth-of-type(34) {
-  animation: float 10s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.7785378653s;
-  animation-delay: 0.7111012946s;
+  animation: float 7s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.5930223642s;
+  animation-delay: 0.7274986572s;
 }
 .wrapper .image-area img:nth-of-type(35) {
-  animation: float 10s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.0872040809s;
-  animation-delay: 0.3701886102s;
+  animation: float 13s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.0469041735s;
+  animation-delay: 0.9023965972s;
 }
 .wrapper .image-area img:nth-of-type(36) {
-  animation: float 8s ease-in-out infinite alternate-reverse;
-  transition-delay: 0.8238965499s;
-  animation-delay: 0.1629900185s;
+  animation: float 12s ease-in-out infinite alternate-reverse;
+  transition-delay: 0.5987273926s;
+  animation-delay: 0.2798575469s;
 }
 .wrapper .image-area img {
   position: absolute;
@@ -269,7 +271,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
 }
-.grid-item img {
+.grid-item img.polaroid {
   width: 50%;
   position: relative;
   border: 16px solid rgb(245, 245, 245);
@@ -277,11 +279,11 @@ h1 {
   transition: all 0.3s ease 0s;
 }
 @media (max-width: 1024px) {
-  .grid-item img {
+  .grid-item img.polaroid {
     width: 100%;
   }
 }
-.grid-item img:hover {
+.grid-item img.polaroid:hover {
   scale: 1.02;
 }
 .grid-item video {
@@ -300,15 +302,608 @@ img {
   all: unset;
 }
 
-.left::after {
+.polaroid {
+  filter: drop-shadow(0 10px 0.75rem rgba(0, 0, 0, 0.219));
+}
+
+.left:nth-of-type(1)::after {
   content: "";
   position: absolute;
-  top: calc(50% - 16px);
-  right: -16px;
-  width: 32px;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
   aspect-ratio: 1;
-  border-radius: 50%;
-  background: #F55;
+  background: url("../images/pin2.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(2)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin3.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(3)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin1.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(4)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin4.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(5)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin3.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(6)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin3.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(7)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin1.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(8)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin4.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(9)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin2.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(10)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin3.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(11)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin4.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(12)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin1.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(13)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin2.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(14)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin4.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(15)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin1.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(16)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin4.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(17)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin4.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(18)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin2.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(19)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin3.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(20)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin3.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(21)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin3.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(22)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin4.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(23)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin1.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(24)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin2.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(25)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin1.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(26)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin4.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(27)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin2.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(28)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin2.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(29)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin4.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(30)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin2.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(31)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin4.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(32)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin2.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(33)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin4.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(34)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin1.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(35)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin1.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(36)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin2.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(37)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin3.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(38)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin3.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(39)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin3.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(40)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin3.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(41)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin3.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(42)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin2.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(43)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin3.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(44)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin3.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(45)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin3.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(46)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin1.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(47)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin3.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(48)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin4.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(49)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin4.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
+  z-index: 999;
+}
+.left:nth-of-type(50)::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 32px);
+  right: -32px;
+  width: 64px;
+  aspect-ratio: 1;
+  background: url("../images/pin1.png");
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+  background-size: cover;
   z-index: 999;
 }
 

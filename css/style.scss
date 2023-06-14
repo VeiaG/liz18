@@ -21,10 +21,12 @@ h1{
     &::before{
         content:'';
         position: absolute;
-        left:calc(50% - 2px);
-        width:4px;
+        left:calc(50% - 16px);
+        width:32px;
         height:100%;
-        background: #F55;
+        background: url(../images/rope.png);
+        background-repeat:repeat-y;
+        background-size:100%;
         z-index:99;
         
     }
@@ -87,17 +89,20 @@ h1{
     flex-direction: column;
     justify-content: center;
     img{
-        width:50%;
-        @media (max-width: 1024px){
-              width:100%;
+        &.polaroid{
+            width:50%;
+            @media (max-width: 1024px){
+                width:100%;
+            }
+            position: relative;
+            border:16px solid rgb(245, 245, 245);
+            border-bottom:32px solid rgb(245, 245, 245);
+            transition: all 0.3s ease 0s;
+            &:hover{
+                scale:1.02;
+            }
         }
-        position: relative;
-        border:16px solid rgb(245, 245, 245);
-        border-bottom:32px solid rgb(245, 245, 245);
-        transition: all 0.3s ease 0s;
-        &:hover{
-            scale:1.02;
-        }
+        
     }
     video{
         width:50%;
@@ -113,18 +118,30 @@ h1{
 img{
     all:unset;
 }
+
+.polaroid{
+    filter: drop-shadow(0 10px 0.75rem rgba(0, 0, 0, 0.219));
+    
+}
 .left {
-    &::after{
-        content:'';
-        position: absolute;
-        top:calc(50% - 16px);
-        right:-16px;
-        width:32px;
-        aspect-ratio: 1;
-        border-radius:50%;
-        background: #F55;
-        z-index:999;
-    }
+    @for $i from 1 through 50 {
+        &:nth-of-type(#{$i}) {
+            &::after{
+                content:'';
+                position: absolute;
+                top:calc(50% - 32px);
+                right:-32px;
+                width:64px;
+                aspect-ratio: 1;
+                //border-radius:50%;
+                background: url('../images/pin' + random(4)+ '.png');
+                filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.482));
+                background-size:cover;
+                z-index:999;
+            };
+        }
+     }
+    
 }
 .fullscreen{
     width:100vw;
@@ -154,4 +171,7 @@ img{
     h1{
         font-size:96px;
     }
+}
+.pin{
+    
 }
