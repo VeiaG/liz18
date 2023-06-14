@@ -264,7 +264,7 @@
             <img class="polaroid" src="images/24.jpg" alt="">
         </div>
         <div class="grid-item">
-            <img class="polaroid" src="images/25.jpg" alt="">
+            <h1>Далі буде...</h1>
         </div>
     </div>
     <div class="fullscreen">
@@ -284,7 +284,7 @@
         images.forEach(image =>{
             const x = Math.floor(getRandomNumber());
             const y = Math.floor(Math.random()*100);
-            image.style.minWidth= Math.floor(Math.random()*10+5)+`%`;
+            image.style.maxWidth= Math.floor(Math.random()*10+5)+`%`;
             image.style.top = `${y}%`;
             image.style.left = `${x}%`;
         });
